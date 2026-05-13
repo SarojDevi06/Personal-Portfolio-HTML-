@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admission Form</title>
+</head>
+
+<body bgcolor="#e6f2ff">
+
+    <center>
+
+        <table border="0" width="700" bgcolor="white" cellpadding="15">
+
+            <!-- Heading -->
+            <tr bgcolor="#003366">
+                <td align="center">
+                    <font color="white" size="7">
+                        <b>College Admission Form</b>
+                    </font>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                    <form>
+
+                        <font size="4">
+
+                            <!-- Full Name -->
+                            <b>Full Name</b><br><br>
+                            <input type="text" size="50" placeholder="Enter your full name" required minlength="3"
+                                maxlength="30">
+                            <br><br>
+
+                            <!-- Father Name -->
+                            <b>Father Name</b><br><br>
+                            <input type="text" size="50" placeholder="Enter father name" required minlength="3"
+                                maxlength="30">
+                            <br><br>
+
+                            <!-- Mother Name -->
+                            <b>Mother Name</b><br><br>
+                            <input type="text" size="50" placeholder="Enter mother name" required minlength="3"
+                                maxlength="30">
+                            <br><br>
+
+                            <!-- Email -->
+                            <b>Email Address</b><br><br>
+                            <input type="email" size="50" placeholder="Enter your email" required>
+                            <br><br>
+
+                            <!-- Password -->
+                            <b>Create Password</b><br><br>
+                            <input type="password" size="50" placeholder="Enter password" required minlength="8"
+                                maxlength="15">
+                            <br>
+                            Password must contain 8 to 15 characters.
+                            <br><br>
+
+                            <!-- Phone -->
+                            <b>Phone Number</b><br><br>
+                            <input type="tel" size="50" placeholder="Enter 10 digit phone number" required
+                                minlength="10" maxlength="10">
+                            <br><br>
+
+                            <!-- DOB -->
+                            <b>Date of Birth</b><br><br>
+                            <input type="date" required>
+                            <br><br>
+
+                            <!-- Gender -->
+                            <b>Gender</b><br><br>
+                            <input type="radio" name="gender" required> Male
+                            <input type="radio" name="gender"> Female
+                            <input type="radio" name="gender"> Other
+                            <br><br>
+
+                            <!-- Address -->
+                            <b>Address</b><br><br>
+                            <textarea rows="5" cols="52" placeholder="Enter your address" required minlength="10"
+                                maxlength="150"></textarea>
+                            <br><br>
+
+                            <!-- City -->
+                            <b>City</b><br><br>
+                            <input type="text" size="50" placeholder="Enter city" required>
+                            <br><br>
+
+                            <!-- State -->
+                            <b>State</b><br><br>
+                            <input type="text" size="50" placeholder="Enter state" required>
+                            <br><br>
+
+                            <!-- Pincode -->
+                            <b>Pincode</b><br><br>
+                            <input type="text" placeholder="Enter 6 digit pincode" required minlength="6" maxlength="6">
+                            <br><br>
+
+                            <!-- Course -->
+                            <b>Select Course</b><br><br>
+                            <select required>
+                                <option value="">-- Select Course --</option>
+                                <option>BCA</option>
+                                <option>B.Tech</option>
+                                <option>B.Sc</option>
+                                <option>MCA</option>
+                                <option>M.Tech</option>
+                            </select>
+                            <br><br>
+
+                            <!-- Qualification -->
+                            <b>Highest Qualification</b><br><br>
+                            <input type="text" size="50" placeholder="Enter qualification" required>
+                            <br><br>
+
+                            <!-- Percentage -->
+                            <b>12th Percentage</b><br><br>
+                            <input type="number" placeholder="Enter percentage" required min="0" max="100">
+                            <br><br>
+
+                            <!-- Hostel -->
+                            <b>Need Hostel Facility?</b><br><br>
+                            <input type="radio" name="hostel"> Yes
+                            <input type="radio" name="hostel"> No
+                            <br><br>
+
+                            <!-- Transport -->
+                            <b>Need Transport Facility?</b><br><br>
+                            <input type="radio" name="transport"> Yes
+                            <input type="radio" name="transport"> No
+                            <br><br>
+
+                            <!-- Upload -->
+                            <b>Upload Documents</b><br><br>
+                            <input type="file" required>
+                            <br><br>
+
+                            <!-- Hobbies -->
+                            <b>Hobbies</b><br><br>
+                            <input type="checkbox"> Reading
+                            <input type="checkbox"> Sports
+                            <input type="checkbox"> Music
+                            <input type="checkbox"> Dancing
+                            <br><br>
+
+                            <!-- Declaration -->
+                            <input type="checkbox" required>
+                            I confirm that all the information provided is correct.
+                            <br><br><br>
+
+                            <!-- Buttons -->
+                            <center>
+
+                                <input type="submit" value="Submit Form">
+
+                                &nbsp;&nbsp;&nbsp;
+
+                                <input type="reset" value="Reset Form">
+
+                            </center>
+
+                        </font>
+
+                    </form>
+
+                </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr bgcolor="#003366">
+                <td align="center">
+                    <font color="white">
+                        © 2026 College Admission Portal
+                    </font>
+                </td>
+            </tr>
+
+        </table>
+
+    </center>
+    <h3>Admission Process</h3>
+    <ol>
+        <li>Fill the admission form.</li>
+        <li>Upload required documents.</li>
+        <li>Submit the application form.</li>
+        <li>Wait for verification.</li>
+        <li>Receive admission confirmation.</li>
+    </ol>
+    <h3>Important Instructions</h3>
+    <ul>
+        <li>Fill all required fields carefully.</li>
+        <li>Upload valid documents only.</li>
+        <li>Phone number must contain 10 digits.</li>
+        <li>Password should be between 8 to 15 characters.</li>
+        <li>Check all details before submitting the form.</li>
+    </ul>
+
+    <h3>Sample Data Table using rowspan</h3>
+    <table border="1" cellpadding="12" cellspacing="5" width="600" bgcolor="white">
+
+        <tr bgcolor="lightblue">
+
+            <th>Name</th>
+            <th>Age</th>
+            <th>State</th>
+
+        </tr>
+        <tr align="center">
+
+            <td>Saroj</td>
+            <td>20</td>
+            <td>Himachal Pradesh</td>
+
+        </tr>
+        <tr align="center">
+
+            <td>Neha</td>
+            <td>19</td>
+            <td rowspan="2">Haryana</td>
+
+        </tr>
+        <tr align="center">
+
+            <td>Rohit</td>
+            <td>21</td>
+
+        </tr>
+    </table>
+
+    <h3>Sample Data Table using colspan</h3>
+
+    <table border="1" cellpadding="12" cellspacing="5" width="600" bgcolor="white">
+
+        <tr bgcolor="lightblue">
+
+            <th>Name</th>
+            <th>Age</th>
+            <th>State</th>
+
+        </tr>
+        <tr align="center">
+
+            <td>Saroj</td>
+            <td>20</td>
+            <td>Himachal Pradesh</td>
+
+        </tr>
+        <tr align="center">
+
+            <td>Neha</td>
+            <td>19</td>
+            <td>Haryana</td>
+
+        </tr>
+        <tr align="center">
+
+            <td>Rohit</td>
+            <td>21</td>
+            <td>Punjab</td>
+
+        </tr>
+        <td colspan="3" align="center">
+            Total Students: 3
+        </td>
+
+    </table>
+
+    <h1>Jan's Spring Term 2006 Afternoon Schedule</h1>
+    <table border="1" cellpadding="12" cellspacing="0" width="600" bgcolor="white">
+        <tr bgcolor="lightblue">
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr align="centre">
+            <td>1:00</td>
+            <td rowspan="2">Office</td>
+            <td></td>
+            <td rowspan="2">Office</td>
+            <td rowspan="8">Office hours by Appt</td>
+            <td rowspan="2">Ofice</td>
+        </tr>
+        <tr align="centre">
+            <td>1:30</td>
+            <td rowspan="2">Dept Meeting</td>
+
+        </tr>
+        <tr align="centre">
+            <td>2:00</td>
+            <td></td>
+            <td rowspan="2">MAT 108</td>
+            <td rowspan="2">MAT 108</td>
+        </tr>
+        <tr align="centre">
+            <td>2:30</td>
+            <td>3:00</td>
+        </tr>
+        <tr align="centre">
+            <td>3:30</td>
+            <td rowspan="3">CSE 205</td>
+            <td rowspan="2">EC Meeting</td>
+            <td rowspan="3">CSE 205</td>
+            <td rowspan="3">CSE 205</td>
+        </tr>
+        <tr align="centre">
+            <td>4:00</td>
+        </tr>
+        <tr align="centre">
+            <td>4:30</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
